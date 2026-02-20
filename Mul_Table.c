@@ -6,7 +6,7 @@ int main()
 
     // Input from user
     printf("Enter a number to generate its multiplication table: ");
-    scan_f("%d", &num);
+    scanf("%d", &num);
 
     // Generate multiplication table
     printf("\nMultiplication Table of %d:\n", num);
@@ -17,4 +17,5 @@ int main()
     }
 
     return 0;
+
 }
