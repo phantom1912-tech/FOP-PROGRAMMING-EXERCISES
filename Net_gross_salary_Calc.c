@@ -1,5 +1,4 @@
 /*
-* Program Name: Salary_Calculator.c
 * Description: This program calculates the gross and net salary of an employee based on the basic pay, HRA, TA, and tax deductions.
 */
 
@@ -27,4 +26,5 @@ int main()
     printf("\nNet Salary Payable: %.2f", net);
 
     return 0;
+
 }
